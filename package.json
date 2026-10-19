@@ -1,3 +1,4 @@
+
 {
   "name": "react-chat-app",
   "private": true,
@@ -5,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -k -n api,web \"node server.js\" \"vite\"",
+    "start": "node server.js",
     "build": "vite build",
     "preview": "vite preview"
   },
